@@ -1,0 +1,236 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  color: #61dafb;
+}
+.banner[_ngcontent-oae-c66] video[_ngcontent-oae-c66] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner[_ngcontent-oae-c66] .logo[_ngcontent-oae-c66] {
+  font-size: 7rem;
+  color: #130d0d;
+  text-align: center;
+  z-index: 1;
+  font-family: swera-bold;
+  margin-bottom: 1rem;
+  line-height: normal;
+  background: url(https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.overlay{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   display: flex;
+   flex-direction : column;
+   justify-content: center;
+   align-items: center;
+   color: rgb(207, 189, 189);
+   
+}
+
+.image-container {
+  display: flex;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.image-container > * {
+  flex: 50%;
+}
+
+.background-image {
+  background-image: url(/images/labbackground.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rowimage {
+  display: flex;
+  flex-direction: column;
+}
+
+.transimage1 {
+  background-image: url(/images/translab1.jpeg);
+  min-height: 800px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  margin: 20px 20px 20px 20px;
+
+}
+.transimage2 {
+  background-image: url(/images/translab2.jpeg);
+  min-height: 800px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  margin: 20px 20px 20px 20px;
+
+ 
+
+}
+
+.transimage3 {
+  background-image: url(/images/translab3.jpeg);
+  min-height: 800px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  margin: 20px 20px 20px 20px;
+ 
+  
+
+}
+
+.transimage4 {
+  background-image: url(/images/translab4.jpeg);
+  min-height: 800px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  margin: 20px 20px 20px 20px;
+ 
+ 
+
+}
+
+.transimage5 {
+  background-image: url(/images/translab5.jpeg);
+  min-height: 800px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  margin: 20px 20px 20px 20px;
+ 
+ 
+
+}
+
+.transimage6 {
+  background-image: url(/images/translab6.jpeg);
+  min-height: 800px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  
+  margin: 20px 20px 20px 20px;
+ 
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+  color:white;
+  font-weight: bolder;
+  z-index: 1;
+  font-size: 7em;
+  text-align: center;
+  font-family: cursive;
+    margin-bottom: 1rem;
+    line-height: normal;
+}
+.paragraph{
+  color:white;
+  font-weight: bolder;
+  z-index: 1;
+  font-size: 3rem;
+    text-align: center;
+    font-family: unset;
+    margin-bottom: 65rem;
+    line-height: normal;
+}
+.welcomeButton {
+  background-color: grey;
+
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  text-decoration: none;
+  margin-block-end: -53rem;
+  margin-top: 107rem;
+  font-size: 3em;
+  
+}
+
+.Building-buttons-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
+
+  
+}
+
+.Building-buttons {
+
+  width: 400px;
+  height: 50px;
+  background-color: none;
+
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
