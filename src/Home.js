@@ -27,7 +27,6 @@ export default function Home() {
     <button className="Building-buttons" onClick={transLabrouteChange} >TRANSDUCER AND MEASUREMENTS LABORATORY</button>
     <button className="Building-buttons">ELECTRONICS LABORATORY-1</button>
     <button className="Building-buttons">ELECTRONICS  LABORATORY-2</button>
-    <button className="Building-buttons">PROJECT LABORATORY</button>
     </div>
 
     </div>
