@@ -6,9 +6,9 @@ export default function Home() {
 
     const history = useNavigate();
 
-    const transLabrouteChange = () =>{
+    function routeChange(t) {
         console.log("Hello") 
-      let path = `/transLab`; 
+      let path = `/` + t; 
       history(path);
     }
      
@@ -17,16 +17,15 @@ export default function Home() {
     <div className="background-image">
     <h1>LABORATORIES</h1>
     <div className="Building-buttons-div">
-    <button className="Building-buttons">FLOW LABORATORY</button>
-    <button className="Building-buttons">ADVANCED MACHINE AND DRIVE LABORATORY</button>
-    <button className="Building-buttons">CONTROL SYSTEM LABORATORY</button>
-    <button className="Building-buttons">PROCESS CONTROL LABORATORY</button>
-    <button className="Building-buttons">INDUSTRIAL AUTOMATION LABORATORY</button>
-    <button className="Building-buttons">EMBEDDED SYSTEM LABORATORY</button>
-    <button className="Building-buttons">INDUSTRIAL INSTRUMENTATION LABORATORY</button>
-    <button className="Building-buttons" onClick={transLabrouteChange} >TRANSDUCER AND MEASUREMENTS LABORATORY</button>
-    <button className="Building-buttons">ELECTRONICS LABORATORY-1</button>
-    <button className="Building-buttons">ELECTRONICS  LABORATORY-2</button>
+    <button className="Building-buttons"onClick={() => routeChange("flowLab")} >FLOW LABORATORY</button>
+    <button className="Building-buttons"onClick={() => routeChange("machineLab")} >ADVANCED MACHINE AND DRIVE LABORATORY</button>
+    <button className="Building-buttons"onClick={() => routeChange("processLab")} >CONTROL SYSTEM LABORATORY</button>
+    <button className="Building-buttons"onClick={() => routeChange("controlLab")} >PROCESS CONTROL LABORATORY</button>
+    <button className="Building-buttons"onClick={() => routeChange("automationLab")} >INDUSTRIAL AUTOMATION LABORATORY</button>
+    <button className="Building-buttons"onClick={() => routeChange("embeddedLab")} >EMBEDDED SYSTEM LABORATORY</button>
+    <button className="Building-buttons"onClick={() => routeChange("iiLab")} >INDUSTRIAL INSTRUMENTATION LABORATORY</button>
+    <button className="Building-buttons"onClick={() => routeChange("transLab")} >TRANSDUCER AND MEASUREMENTS LABORATORY</button>
+    <button className="Building-buttons"onClick={() => routeChange("electronicsLab")} >ELECTRONICS LABORATORY</button>
     </div>
 
     </div>

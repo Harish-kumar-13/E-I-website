@@ -9,17 +9,28 @@ return (
 <>
 <div className="App-header">
     <div className="overlay" >
-    <h1 className="animate header">WELCOME TO MIT</h1>
+    <h1 className="animate header">WELCOME TO EIE</h1>
     <video autoPlay loop muted
      width="620"
      height="340">
       <source src={video} type="video/mp4"/>
     </video>
-    <p className="paragraph">Madras Institute of Technology (MIT) is an engineering institute located in Chromepet, Chennai, India. It is one of the four autonomous constituent colleges of Anna University.
-     It was established in 1949 by Chinnaswami Rajam as the first self-financing engineering institute in the country and later merged with Anna University. The institute gave India new areas of specialization such as aeronautical engineering, automobile engineering, electronics engineering and instrumentation technology. MIT was the first self-financing institute opened in India.</p> 
+    <p className="paragraph">  The Department  of Instrumentation Engineering MIT Campus Anna University was established in the year of 1949. The Instrumentation Engineering Department offers Electronics and Instrumentation Engineering at UG level, Instrumentation Engineering at PG level, and Ph.D. / MS (by research) for both regular and Part-time scholars. The core strength of the Instrumentation Engineering Department MIT Campus, Anna University is Process Control & Instrumentation.</p> 
+  <div className="links">
+  <div className="welcomeButton">
+     < Link to="/home" className= "welcomeButtonLink" > LABORATORY</Link>
+    </div>3.2
+    
     <div className="welcomeButton">
-     < Link to="/home" className= "welcomeButtonLink" > HOME</Link>
+    <Link to="/indoor" className= "welcomeButtonLink" >INDOOR MAP</Link>
+
     </div>
+    <div className="welcomeButton">
+     {/* <Link to="/chatbot" className = "welcomeButtonLink">CHAT BOT</Link> */}
+      <a className="welcomeButtonLink" href="https://bot.dialogflow.com/537811eb-4ff5-4959-a57f-d23c0d18eb69">CHAT BOT</a>
+      </div>
+  </div>
+
   </div>
 </div>
 <Outlet />

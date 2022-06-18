@@ -10,6 +10,30 @@
   color: #61dafb;
 }
 
+.links {
+  display: flex;
+ justify-content: space-evenly;
+}
+
+.indoorButtons {
+  height: 500px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.indButtonLink {
+  background-color: aqua;
+  height: 100px;
+  width:150px;
+
+
+}
+
+
 video {
   
   width: 100vw;
@@ -56,7 +80,7 @@ video {
   margin-left: 20px;
 }
 
-.transimage {
+.labImage {
   height: 500px;
   width: 400px;
   background-position: center;
@@ -90,6 +114,100 @@ video {
   background-image: url(/images/translab6.jpeg);
 }
 
+.autoimage1 {
+  background-image: url(/images/labPhotos/automation\ lab/flowLevelProcessStation.jpeg);
+}
+.autoimage2 {
+  background-image: url(/images/labPhotos/automation\ lab/DCS_FCS.jpeg);
+}
+.autoimage3 {
+  background-image: url(/images/labPhotos/automation\ lab/PLC_schniederElectric.jpeg);
+}
+.autoimage4 {
+  background-image: url(/images/labPhotos/automation\ lab/trafficLightControlSystem.jpeg);
+}
+.autoimage5 {
+  background-image: url(/images/labPhotos/automation\ lab/waterLevelController.jpeg);
+}
+.utoimage1 {
+  background-image: url(/images/labPhotos/contol\ system\ lab/conicalAndCylindericalSystem.jpeg);
+}
+.utoimage2 {
+  background-image: url(/images/labPhotos/contol\ system\ lab/flowAndLevelControlProcess.jpeg);
+}.utoimage3 {
+  background-image: url(/images/labPhotos/contol\ system\ lab/multivariableSystemControlPilotPlantSetup.jpeg);
+}.utoimage4 {
+  background-image: url(/images/labPhotos/contol\ system\ lab/presure_control_station.jpeg);
+}
+.utoimage5 {
+  background-image: url(/images/labPhotos/contol\ system\ lab/tankSystem.jpeg);
+}
+.embimage1{
+  background-image: url(/images/labPhotos/embeddedSystemLab/armProcessor.jpg);
+}
+.embimage2{
+  background-image: url(/images/labPhotos/embeddedSystemLab/FPGA_trainerKit.jpeg);
+}
+
+.embimage3{
+  background-image: url(/images/labPhotos/embeddedSystemLab/pic16f877a.jpg);
+}
+.flowimage{
+  background-image: url(/images/labPhotos/flow\ lab/flowMeasurementAndControlTest.png);
+}
+
+.machine1{
+  background-image: url(/images/labPhotos/machines\ lab/3_Phase_5KVA_Synchronous_motor_loading_arrangements.jpeg);
+}
+.machine2{
+  background-image: url(/images/labPhotos/machines\ lab/ac_generator.jpeg);
+}.machine3{
+  background-image: url(/images/labPhotos/machines\ lab/Embedded_Controls_for_Advanced_Electrical_Machines_and_Drives.jpeg);
+}.machine4{
+  background-image: url(/images/labPhotos/machines\ lab/H_PSingle_phase_induction_motor_with_loading_arrangements.jpeg);
+}.machine5{
+  background-image: url(/images/labPhotos/machines\ lab/loadingArrangements.jpeg);
+}
+.ii1{
+  background-image: url(/images/labPhotos/II\ lab/blackBodyAndTempCalibrator.png);
+}
+.ii2{
+  background-image: url(/images/labPhotos/II\ lab/conductivity\ and\ PH\ analyzer.png);
+}.ii3{
+  background-image: url(/images/labPhotos/II\ lab/electromagneticFieldTester.png);
+}.ii4{
+  background-image: url(/images/labPhotos/II\ lab/multiproductCalibrator.png);
+}.ii5{
+  background-image: url(/images/labPhotos/II\ lab/UV_visibleSpectrophotometer.png);
+}
+.ele1{
+  background-image: url(/images/labPhotos/electronicsLab/3Channel_RPS.jpeg);
+}
+
+.ele2{
+  background-image: url(/images/labPhotos/electronicsLab/ammetersAndvoltmeters.jpeg);
+}
+.ele3{
+  background-image: url(/images/labPhotos/electronicsLab/digital_IC_Trainer_Kit.jpeg);
+}
+.ele4{
+  background-image: url(/images/labPhotos/electronicsLab/digitalOscilloscope.jpeg);
+}
+.ele5{
+  background-image: url(/images/labPhotos/electronicsLab/diodes_transistors.jpeg);
+}
+.las1{
+  background-image: url(/images/labPhotos/control\ and\ instrumentation/digital_pendulum_control_system.jpeg);
+}
+.las2{
+  background-image: url(/images/labPhotos/control\ and\ instrumentation/magnetic_levitation_system.jpeg);
+}.las3{
+  background-image: url(/images/labPhotos/control\ and\ instrumentation/modular_ac_dc_servo_control_system.jpeg);
+}.las4{
+  background-image: url(/images/labPhotos/control\ and\ instrumentation/sysem.jpeg);
+}.las5{
+  background-image: url(/images/labPhotos/control\ and\ instrumentation/twin_rotor_mimo_system.jpeg);
+}
 .header{
   color: #f2cc8f;
   font-weight: bolder;
@@ -125,7 +243,6 @@ video {
   z-index: 1;
  
   font-size: 1em;
-  margin-left: 45%;
  text-align: center;
   width: 150px;
   height: 30px;
@@ -169,4 +286,62 @@ video {
 @keyframes animate-fade {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+.indoor {
+  display: flex;
+  justify-content: space-between;
+  background-color:#D6E3F8;
+  height: 100vh;
+}
+
+
+/* .floor0 {
+  background-image: url(/images/groundFloor.jpeg);
+  margin-top: 2%;
+  margin-right: 20%;
+ 
+  width: 600px;
+  height: 500px;
+}
+
+.floor1 {
+  background-image: url(/images/firstFloor.jpeg);
+ 
+  margin-top: 2%;
+  margin-right: 20%;
+ 
+  width: 600px;
+  height: 460px;
+
+}
+
+.floor2 {
+  background-image: url(/images/secondFloor.jpeg);
+ 
+  margin-top: 2%;
+  margin-right: 20%;
+ 
+  width: 650px;
+  height: 500px;
+}
+
+.floor3 {
+  background-image: url(/images/thirdFloor.jpeg);
+  margin-top: 2%;
+  margin-right: 20%;
+ 
+  width: 650px;
+  height: 500px;
+} */
+
+.floor-image {
+  position: absolute;
+  left: 40vw;
+  top: 10vh;
+}
+
+.btn {
+  position: absolute;
+  border-radius: 5px;
 }
